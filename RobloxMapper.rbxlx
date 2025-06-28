@@ -57,7 +57,7 @@ end)
         <string name="Name">Baseplate</string>
         <bool name="Anchored">true</bool>
         <token name="BottomSurface">0</token>
-        <Color3uint8 name="Color3uint8">8183087</Color3uint8>
+        <Color3uint8 name="Color3uint8">10744809</Color3uint8>
         <token name="Material">1280</token>
         <Vector3 name="Position">
           <X>0</X>

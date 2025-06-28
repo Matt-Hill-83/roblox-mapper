@@ -1,0 +1,16 @@
+{
+  "name": "Baseplate",
+  "tree": {
+    "$className": "Part",
+    "$properties": {
+      "Size": [512, 20, 512],
+      "Position": [0, -10, 0],
+      "Anchored": true,
+      "Color": [0.639216, 0.952941, 0.913725],
+      "Material": "Grass",
+      "Shape": "Block",
+      "TopSurface": "Smooth",
+      "BottomSurface": "Smooth"
+    }
+  }
+}

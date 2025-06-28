@@ -24,19 +24,10 @@
     "Workspace": {
       "$className": "Workspace",
       "$properties": {},
+      "$ignoreUnknownInstances": true,
       "$path": "src/workspace",
       "Baseplate": {
-        "$className": "Part",
-        "$properties": {
-          "Size": [512, 20, 512],
-          "Position": [0, -10, 0],
-          "Anchored": true,
-          "Color": [0.486275, 0.866667, 0.184314],
-          "Material": "Grass",
-          "Shape": "Block",
-          "TopSurface": "Smooth",
-          "BottomSurface": "Smooth"
-        }
+        "$path": "assets/baseplate/baseplate.project.json"
       }
     }
   }
