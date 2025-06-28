@@ -8,10 +8,11 @@ console.log("📁 Watching: scripts/*.js");
 console.log("🔄 Auto-running create3blocks.js when changes detected\n");
 
 // Watch all JavaScript files in the scripts directory
-const watcher = chokidar.watch("scripts/*.js", {
-  ignored: /scripts\/watch\.js$/, // Don't watch the watcher itself
+const watcher = chokidar.watch("scripts/create3blocks.js", {
   persistent: true,
   ignoreInitial: true,
+  usePolling: true, // Force polling for better compatibility
+  interval: 100     // Check every 100ms
 });
 
 let isRunning = false;
@@ -47,6 +48,9 @@ function runBlockScript() {
 
 // Set up event listeners
 watcher
+  .on("ready", () => {
+    console.log("🎯 Watcher ready! Watching:", watcher.getWatched());
+  })
   .on("change", (filePath) => {
     console.log(`📝 File changed: ${filePath}`);
     runBlockScript();

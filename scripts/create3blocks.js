@@ -13,7 +13,7 @@ project.tree.Workspace.MyStuff = {
   $className: "Folder",
 };
 
-const numberOfBlocks = 21; // Number of blocks to add
+const numberOfBlocks = 6; // Number osafdf bsadflocks asdfto addasdf
 const blockColor = [0.486275, 0.866667, 0.184314]; // Bright green RGB
 // Add 5   new blocks
 for (let i = 1; i <= numberOfBlocks; i++) {
