@@ -1,0 +1,43 @@
+{
+  "name": "RobloxMapper",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/server"
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/storage"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/shared"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client"
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {},
+      "$path": "src/workspace",
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Size": [512, 20, 512],
+          "Position": [0, -10, 0],
+          "Anchored": true,
+          "Color": [0.486275, 0.866667, 0.184314],
+          "Material": "Grass",
+          "Shape": "Block",
+          "TopSurface": "Smooth",
+          "BottomSurface": "Smooth"
+        }
+      }
+    }
+  }
+}

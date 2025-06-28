@@ -1,0 +1,77 @@
+<roblox version="4">
+  <Item class="ReplicatedStorage" referent="0">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+    </Properties>
+  </Item>
+  <Item class="ServerScriptService" referent="1">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="Script" referent="2">
+      <Properties>
+        <string name="Name">main</string>
+        <token name="RunContext">0</token>
+        <string name="Source"><![CDATA[-- Main server script for Roblox Mapper
+print("🗺️ Roblox Mapper server started!")
+
+-- Example: Simple player join handler
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+    print("Player joined:", player.Name)
+    
+    -- You can add your mapping logic here
+    -- For example: teleport player to spawn, set up UI, etc.
+end)
+
+Players.PlayerRemoving:Connect(function(player)
+    print("Player left:", player.Name)
+end)
+]]></string>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="ServerStorage" referent="3">
+    <Properties>
+      <string name="Name">ServerStorage</string>
+    </Properties>
+  </Item>
+  <Item class="StarterPlayer" referent="4">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="5">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+      </Properties>
+    </Item>
+  </Item>
+  <Item class="Workspace" referent="6">
+    <Properties>
+      <string name="Name">Workspace</string>
+      <bool name="NeedsPivotMigration">false</bool>
+    </Properties>
+    <Item class="Part" referent="7">
+      <Properties>
+        <string name="Name">Baseplate</string>
+        <bool name="Anchored">true</bool>
+        <token name="BottomSurface">0</token>
+        <Color3uint8 name="Color3uint8">8183087</Color3uint8>
+        <token name="Material">1280</token>
+        <Vector3 name="Position">
+          <X>0</X>
+          <Y>-10</Y>
+          <Z>0</Z>
+        </Vector3>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>512</X>
+          <Y>20</Y>
+          <Z>512</Z>
+        </Vector3>
+        <token name="TopSurface">0</token>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>
