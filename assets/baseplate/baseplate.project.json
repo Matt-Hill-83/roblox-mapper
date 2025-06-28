@@ -6,11 +6,19 @@
       "Size": [512, 20, 512],
       "Position": [0, -10, 0],
       "Anchored": true,
-      "Color": [0.639216, 0.952941, 0.913725],
-      "Material": "Grass",
+      "Color": [0.9058824, 0.9058824, 0.9058824],
+      "Material": "Plastic",
       "Shape": "Block",
       "TopSurface": "Smooth",
-      "BottomSurface": "Smooth"
+      "BottomSurface": "Smooth",
+      "Locked": true
+    },
+    "Decal": {
+      "$className": "Decal",
+      "$properties": {
+        "Face": "Top",
+        "Texture": "rbxasset://textures/SpawnLocation.png"
+      }
     }
   }
 }

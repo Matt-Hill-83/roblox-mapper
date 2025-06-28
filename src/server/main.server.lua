@@ -1,6 +1,11 @@
 -- Main server script for Roblox Mapper
 print("🗺️ Roblox Mapper server started!")
 
+-- Import our modules
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Constants = require(ReplicatedStorage.Constants)
+local BlockManager = require(ReplicatedStorage.BlockManager)
+
 -- Example: Creating a part with Enums in Lua code
 local function createColoredPart()
     local part = Instance.new("Part")
@@ -23,6 +28,10 @@ local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(player)
     print("Player joined:", player.Name)
+    
+    -- Create a block using our constants
+    BlockManager.createGreenBlock()
+    print("Created green block with size:", table.unpack(Constants.BLOCK_SIZE))
     
     -- Create a welcome part when player joins
     createColoredPart()

@@ -1,0 +1,13 @@
+{
+  "name": "roblox-mapper",
+  "version": "1.0.0",
+  "description": "Roblox development project with auto-updating JSON",
+  "type": "module",
+  "scripts": {
+    "watch": "node scripts/watch.js",
+    "create-blocks": "node scripts/create3blocks.js"
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.0"
+  }
+}
