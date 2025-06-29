@@ -64,14 +64,14 @@ makeHexagon({
 currentX += spacing;
 
 // Generate a hex stack
-// makeHexStack({
-//   project,
-//   id: "hexStack1",
-//   centerPosition: [currentX, 2, 0],
-//   width: 8,
-//   height: 1,
-//   count: 1,
-// });
+makeHexStack({
+  project,
+  id: "hexStack1",
+  centerPosition: [currentX, 2, 0],
+  width: 8,
+  height: 1,
+  count: 1,
+});
 currentX += spacing;
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));

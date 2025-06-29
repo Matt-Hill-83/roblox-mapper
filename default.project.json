@@ -512,6 +512,297 @@
               "Shape": "Ball"
             }
           }
+        },
+        "RectanglehexStack1_level1_bar1": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              1,
+              6.928203230275509
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Transparency": 0.5,
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                3.4641016151377544
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -3.4641016151377544
+              ]
+            }
+          },
+          "FrontCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                24,
+                2,
+                3.4641016151377544
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                1,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          },
+          "BackCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                24,
+                2,
+                -3.4641016151377544
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          }
+        },
+        "RectanglehexStack1_level1_bar2": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              1,
+              6.928203230275509
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Transparency": 0.5,
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              60,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                3.4641016151377544
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -3.4641016151377544
+              ]
+            }
+          },
+          "FrontCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                27,
+                2,
+                1.7320508075688776
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                1,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          },
+          "BackCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                21,
+                2,
+                -1.7320508075688776
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          }
+        },
+        "RectanglehexStack1_level1_bar3": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              1,
+              6.928203230275509
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Transparency": 0.5,
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              120,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                3.4641016151377544
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -3.4641016151377544
+              ]
+            }
+          },
+          "FrontCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                27,
+                2,
+                -1.7320508075688765
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                1,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          },
+          "BackCircle": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                21,
+                2,
+                1.7320508075688765
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            }
+          }
         }
       }
     }
