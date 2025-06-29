@@ -80,6 +80,7 @@ const teamsStackModels = makeTeamsStack({
   centerPosition: [currentX, 2, 0],
   width: 8,
   height: 2,
+  maxItems: 100,
 });
 currentX += spacing;
 
@@ -90,6 +91,7 @@ const nationsStackModels = makeNationsStack({
   centerPosition: [currentX, 2, 0],
   width: 8,
   height: 2,
+  maxItems: 100,
 });
 currentX += spacing;
 

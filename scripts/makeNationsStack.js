@@ -7,8 +7,9 @@ export function makeNationsStack({
   centerPosition = [0, 2, 0],
   width = 8,
   height = 2,
+  maxItems = 1, // new parameter with default
 }) {
-  const slicedNations = nations.slice(0, 1); // Limit to first 3 nations for testing
+  const slicedNations = nations.slice(0, maxItems); // Use maxItems in slice
   const stackItemsNations = slicedNations.map((item) => {
     const labels = [
       item.sport,

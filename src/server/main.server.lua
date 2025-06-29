@@ -9,36 +9,6 @@ local BlockManager = require(ReplicatedStorage.BlockManager)
 
 
 
--- Utility: Create a RopeConstraint between two named attachments in workspace.MyStuff
-local function createRopeBetweenAttachments(attachName0, attachName1)
-    local att0 = nil
-    local att1 = nil
-    -- Search for attachments by name in Workspace.MyStuff
-    for _, descendant in ipairs(workspace.MyStuff:GetDescendants()) do
-        if descendant:IsA("Attachment") then
-            if descendant.Name == attachName0 then
-                att0 = descendant
-            elseif descendant.Name == attachName1 then
-                att1 = descendant
-            end
-        end
-    end
-    if att0 and att1 then
-        local rope = Instance.new("RopeConstraint")
-        rope.Name = "zzz"
-        rope.Attachment0 = att0
-        rope.Attachment1 = att1
-        rope.Length = (att0.WorldPosition - att1.WorldPosition).Magnitude
-        rope.Visible = true
-        rope.Color = ropeColor -- Set the rope color
-        rope.Parent = workspace.MyStuff
-        print("Created RopeConstraint between", attachName0, "and", attachName1)
-        return rope
-    else
-        warn("Could not find both attachments:", attachName0, attachName1)
-        return nil
-    end
-end
 
 -- Utility: Get all attachments in workspace.MyStuff
 local function getAllAttachments()
@@ -70,22 +40,29 @@ local function createRopeBetweenAttachmentsInstances(att0, att1)
     end
 end
 
--- Example usage: create a rope between two specific attachments
-createRopeBetweenAttachments(
-    "RectangleteamsStack1_level1_bar1_FrontAttachment",
-    "RectanglenationsStack1_level1_bar2_FrontAttachment"
-)
 
--- Example usage: connect two random attachments with a rope
+-- Example usage: connect ten random pairs of attachments with ropes
 local allAttachments = getAllAttachments()
 if #allAttachments >= 2 then
-    -- Pick two random, different attachments
-    local i = math.random(1, #allAttachments)
-    local j = i
-    while j == i do
-        j = math.random(1, #allAttachments)
+    local usedPairs = {}
+    local attempts = 0
+    local ropesCreated = 0
+    while ropesCreated < 10 and attempts < 100 do
+        local i = math.random(1, #allAttachments)
+        local j = math.random(1, #allAttachments)
+        if i ~= j then
+            local key = tostring(math.min(i, j)) .. "," .. tostring(math.max(i, j))
+            if not usedPairs[key] then
+                createRopeBetweenAttachmentsInstances(allAttachments[i], allAttachments[j])
+                usedPairs[key] = true
+                ropesCreated = ropesCreated + 1
+            end
+        end
+        attempts = attempts + 1
     end
-    createRopeBetweenAttachmentsInstances(allAttachments[i], allAttachments[j])
+    if ropesCreated < 10 then
+        warn("Could only create " .. ropesCreated .. " unique ropes.")
+    end
 else
     warn("Not enough attachments to connect.")
 end
