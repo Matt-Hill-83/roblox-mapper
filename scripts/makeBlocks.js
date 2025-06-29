@@ -4,6 +4,7 @@ import { generateSquare } from "./baseAssets/makeSquare.js";
 import { makeBar } from "./baseAssets/makeBar.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
 import { createRectangles } from "./createRectangles.js";
+import { createHexagon } from "./createHexagon.js";
 import { config } from "./config.js";
 
 // Read current project file
@@ -35,14 +36,21 @@ const barProps = {
 const bar = makeBar({ id: 1, position: [currentX, 2, 0], props: barProps });
 Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
-//
+
+// Generate a hexagon
+createHexagon({
+  project,
+  id: "hex1",
+  centerPosition: [currentX, 2, 0],
+  width: 10,
+});
+currentX += spacing;
+//lkj
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 
-const totalObjects = config.rectangles + config.squares + config.cylinders + 1;
+const totalObjects =
+  config.rectangles + config.squares + config.cylinders + 1 + 3; // +3 for hexagon bars
 console.log(`✅ Generated ${totalObjects} objects in default.project.json:`);
-console.log(`   - ${config.rectangles} blue rectangles`);
-console.log(`   - ${config.squares} red squares`);
-console.log(`   - ${config.cylinders} green cylinders`);
-console.log(`   - 1 light yellow bar`);
-console.log("🔄 Rojo will sync them to Studio automatically!");
+
+// adsfsadasfdsafdasdfasdfasdf

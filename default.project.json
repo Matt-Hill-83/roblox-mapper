@@ -82,6 +82,96 @@
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth"
           }
+        },
+        "Rectanglehex1_bar1": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              0.5,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "Rectanglehex1_bar2": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              0.5,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Rotation": [
+              0,
+              60,
+              0
+            ]
+          }
+        },
+        "Rectanglehex1_bar3": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              0.5,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Rotation": [
+              0,
+              120,
+              0
+            ]
+          }
         }
       }
     }
