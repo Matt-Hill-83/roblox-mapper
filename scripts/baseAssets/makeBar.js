@@ -14,7 +14,7 @@ const defaultProps = {
 
 const pointSize = 1;
 
-function makeSurfaceGui(face, label) {
+function makeSurfaceGui(face, label, blockColor) {
   return {
     $className: "SurfaceGui",
     $properties: {
@@ -26,10 +26,10 @@ function makeSurfaceGui(face, label) {
       $className: "TextBox",
       $properties: {
         Text: label,
-        TextSize: 14,
+        TextSize: 48,
         Font: "SourceSans",
         // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
-        BackgroundColor3: colors["Brick yellow"],
+        BackgroundColor3: blockColor,
         TextColor3: [0, 0, 0],
       },
     },
@@ -83,6 +83,9 @@ export function makeBar({
   const backX = position.x + sinY * backFaceOffset;
   const backZ = position.z + cosY * backFaceOffset;
 
+  // Use the block color for the SurfaceGui background
+  const blockColor = finalProps.Color;
+
   const bar = {
     [`Rectangle${id}`]: {
       $className: "Part",
@@ -93,8 +96,8 @@ export function makeBar({
       },
       FrontAttachment: makeAttachment("FrontAttachment", frontFaceOffset),
       BackAttachment: makeAttachment("BackAttachment", backFaceOffset),
-      FrontSurfaceGui: makeSurfaceGui("Front", "Front"),
-      BackSurfaceGui: makeSurfaceGui("Back", "Back"),
+      FrontSurfaceGui: makeSurfaceGui("Front", "Front", blockColor),
+      BackSurfaceGui: makeSurfaceGui("Back", "Back", blockColor),
       FrontCircle: makeCircle(
         "FrontCircle",
         frontX,
