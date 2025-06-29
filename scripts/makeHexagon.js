@@ -26,7 +26,7 @@ export function makeHexagon({
     const rotation = i * 60; // 0°, 60°, 120°
 
     const barProps = {
-      Size: [barWidth, barHeight, barLength], // Calculated width for proper hexagon
+      Size: [barLength, barHeight, barWidth], // Swap width and length so Z is the long dimension
       Color: [0.9, 0.7, 0.3], // Golden color
     };
 
