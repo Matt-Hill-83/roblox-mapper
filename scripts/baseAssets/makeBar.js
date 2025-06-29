@@ -74,6 +74,25 @@ export function makeBar({
           },
         },
       },
+      BackSurfaceGui: {
+        $className: "SurfaceGui",
+        $properties: {
+          Face: "Back",
+          SizingMode: "PixelsPerStud",
+          PixelsPerStud: 50,
+        },
+        BackTextBox: {
+          $className: "TextBox",
+          $properties: {
+            Text: "Back",
+            TextSize: 14,
+            Font: "SourceSans",
+            // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
+            BackgroundColor3: [1, 1, 1],
+            TextColor3: [0, 0, 0],
+          },
+        },
+      },
       FrontCircle: {
         $className: "Part",
         $properties: {
