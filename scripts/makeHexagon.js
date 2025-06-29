@@ -8,6 +8,7 @@ export function makeHexagon({
   width = 10,
   height = 0.5,
   barProps = {},
+  labels = ["Front", "Left", "Right"], // default fallback
 }) {
   console.log(`⬡ Generating hexagon with 3 bars...`);
 
@@ -42,6 +43,7 @@ export function makeHexagon({
       },
       rotation: { x: 0, y: rotation, z: 0 },
       props: defaultBarProps,
+      label: labels[i] || `Bar${i + 1}`,
     });
 
     // Instead of assigning to project.tree.Workspace.MyStuff, collect bars as children

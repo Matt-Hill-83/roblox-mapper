@@ -28,7 +28,6 @@ function makeSurfaceGui(face, label, blockColor) {
         Text: label,
         TextSize: 48,
         Font: "SourceSans",
-        // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
         BackgroundColor3: blockColor,
         TextColor3: [0, 0, 0],
         BorderSizePixel: 10,
@@ -65,6 +64,7 @@ export function makeBar({
   position = { x: 0, y: 0, z: 0 },
   rotation = { x: 0, y: -30, z: 0 },
   props = {},
+  label = "Bar", // new prop
 }) {
   const finalProps = {
     ...defaultProps,
@@ -97,8 +97,8 @@ export function makeBar({
       },
       FrontAttachment: makeAttachment("FrontAttachment", frontFaceOffset),
       BackAttachment: makeAttachment("BackAttachment", backFaceOffset),
-      FrontSurfaceGui: makeSurfaceGui("Front", "Front", blockColor),
-      BackSurfaceGui: makeSurfaceGui("Back", "Back", blockColor),
+      FrontSurfaceGui: makeSurfaceGui("Front", label, blockColor),
+      BackSurfaceGui: makeSurfaceGui("Back", label, blockColor),
       FrontCircle: makeCircle(
         "FrontCircle",
         frontX,

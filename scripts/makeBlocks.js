@@ -3,7 +3,9 @@ import fs from "fs";
 import { makeBar } from "./baseAssets/makeBar.js";
 import { makeHexagon } from "./makeHexagon.js";
 import { makeHexStack } from "./makeHexStack.js";
-import { config } from "./config.js";
+import { makeTeamsStack } from "./makeTeamsStack.js";
+import { makeNationsStack } from "./makeNationsStack.js";
+import { config, teams } from "./config.js";
 
 // Read current project file
 const projectPath = "./default.project.json";
@@ -56,6 +58,7 @@ currentX += spacing;
 // currentX += spacing;
 
 // // Generate a hex stack
+
 const hexStackModels = makeHexStack({
   project,
   id: "hexStack1",
@@ -66,8 +69,36 @@ const hexStackModels = makeHexStack({
 });
 currentX += spacing;
 
+// Use makeTeamsStack instead
+const teamsStackModels = makeTeamsStack({
+  project,
+  id: "teamsStack1",
+  centerPosition: [currentX, 2, 0],
+  width: 8,
+  height: 2,
+});
+currentX += spacing;
+
+// Use makeNationsStack to generate nations stack
+const nationsStackModels = makeNationsStack({
+  project,
+  id: "nationsStack1",
+  centerPosition: [currentX, 2, 0],
+  width: 8,
+  height: 2,
+});
+currentX += spacing;
+
 // Add each hexagon Model to MyStuff
 for (const modelObj of hexStackModels) {
+  Object.assign(project.tree.Workspace.MyStuff, modelObj);
+}
+// Add each hexagon Model to MyStuff
+for (const modelObj of teamsStackModels) {
+  Object.assign(project.tree.Workspace.MyStuff, modelObj);
+}
+// Add each hexagon Model to MyStuff
+for (const modelObj of nationsStackModels) {
   Object.assign(project.tree.Workspace.MyStuff, modelObj);
 }
 

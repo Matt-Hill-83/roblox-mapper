@@ -1,0 +1,36 @@
+import { makeSmartHexStack } from "./makeSmartHexStack.js";
+import { nations } from "./config.js";
+
+export function makeNationsStack({
+  project,
+  id = "nationsStack1",
+  centerPosition = [0, 2, 0],
+  width = 8,
+  height = 2,
+}) {
+  const stackItemsNations = nations.map((item) => {
+    const labels = [
+      item.sport,
+      item.country,
+      item.capitalCity,
+      item.animal,
+      item.stadium,
+      item.food,
+    ];
+    return {
+      name: item.team,
+      labels,
+    };
+  });
+
+  const smartHexStackModels = makeSmartHexStack({
+    project,
+    id,
+    centerPosition,
+    width,
+    height,
+    stackItems: stackItemsNations,
+  });
+
+  return smartHexStackModels;
+}
