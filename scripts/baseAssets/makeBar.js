@@ -11,6 +11,28 @@ const defaultProps = {
 
 const pointSize = 1;
 
+function makeSurfaceGui(face, label) {
+  return {
+    $className: "SurfaceGui",
+    $properties: {
+      Face: face,
+      SizingMode: "PixelsPerStud",
+      PixelsPerStud: 50,
+    },
+    [`${label}TextBox`]: {
+      $className: "TextBox",
+      $properties: {
+        Text: label,
+        TextSize: 14,
+        Font: "SourceSans",
+        // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
+        BackgroundColor3: [1, 1, 1],
+        TextColor3: [0, 0, 0],
+      },
+    },
+  };
+}
+
 export function makeBar({
   id,
   position = { x: 0, y: 0, z: 0 },
@@ -55,44 +77,8 @@ export function makeBar({
           Position: [0, 0, backFaceOffset],
         },
       },
-      FrontSurfaceGui: {
-        $className: "SurfaceGui",
-        $properties: {
-          Face: "Front",
-          SizingMode: "PixelsPerStud",
-          PixelsPerStud: 50,
-        },
-        FrontTextBox: {
-          $className: "TextBox",
-          $properties: {
-            Text: "Front",
-            TextSize: 14,
-            Font: "SourceSans",
-            // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
-            BackgroundColor3: [1, 1, 1],
-            TextColor3: [0, 0, 0],
-          },
-        },
-      },
-      BackSurfaceGui: {
-        $className: "SurfaceGui",
-        $properties: {
-          Face: "Back",
-          SizingMode: "PixelsPerStud",
-          PixelsPerStud: 50,
-        },
-        BackTextBox: {
-          $className: "TextBox",
-          $properties: {
-            Text: "Back",
-            TextSize: 14,
-            Font: "SourceSans",
-            // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
-            BackgroundColor3: [1, 1, 1],
-            TextColor3: [0, 0, 0],
-          },
-        },
-      },
+      FrontSurfaceGui: makeSurfaceGui("Front", "Front"),
+      BackSurfaceGui: makeSurfaceGui("Back", "Back"),
       FrontCircle: {
         $className: "Part",
         $properties: {
