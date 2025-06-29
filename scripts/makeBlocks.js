@@ -35,8 +35,8 @@ const barProps = {
 };
 const bar = makeBar({
   id: 1,
-  position: [currentX, 2, 0],
-  rotation: [0, -30, 0], // Apply rotation during creation
+  position: { x: currentX, y: 2, z: 0 },
+  rotation: { x: 0, y: -30, z: 0 }, // Apply rotation during creation
   props: barProps,
 });
 

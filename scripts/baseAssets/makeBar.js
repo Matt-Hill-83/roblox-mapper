@@ -9,39 +9,17 @@ const defaultProps = {
 };
 
 const pointSize = 1;
-// Helper function to create a point with common properties
-function createPoint(name, pointPosition, color) {
-  return {
-    [name]: {
-      $className: "Part",
-      $properties: {
-        Size: [pointSize, pointSize, pointSize], // Size of the point
-        Position: pointPosition,
-        Anchored: true,
-        Color: color,
-        Material: "Neon",
-        Shape: "Ball",
-      },
-    },
-    [`${name}Attachment`]: {
-      $className: "Attachment",
-      $properties: {
-        Position: pointPosition, // Same position as the point
-      },
-    },
-  };
-}
 
 export function makeBar({
   id,
-  position = [0, 0, 0],
-  rotation = [0, 0, 0],
+  position = { x: 0, y: 0, z: 0 },
+  rotation = { x: 0, y: 0, z: 0 },
   props = {},
 }) {
   const finalProps = {
     ...defaultProps,
-    Position: position,
-    Orientation: rotation, // Use Orientation instead of Rotation for proper CFrame handling
+    Position: [position.x, position.y, position.z],
+    Orientation: [rotation.x, rotation.y, rotation.z], // Use Orientation instead of Rotation for proper CFrame handling
     ...props,
   };
 
@@ -50,42 +28,45 @@ export function makeBar({
   const frontFaceOffset = barWidth / 2; // Front face (positive X)
   const backFaceOffset = -barWidth / 2; // Back face (negative X)
 
+  // Create points using the helper function
+  const frontPoint = createPointWithAttachment({
+    name: "FrontPoint",
+    position: { x: frontFaceOffset, y: 0, z: 0 },
+    color: { r: 0, g: 1, b: 0 }, // Green
+  });
+  const backPoint = createPointWithAttachment({
+    name: "BackPoint",
+    position: { x: backFaceOffset, y: 0, z: 0 },
+    color: { r: 1, g: 0, b: 0 }, // Red
+  });
+
   return {
     [`Rectangle${id}`]: {
       $className: "Part",
       $properties: finalProps,
-      FrontPoint: {
-        $className: "Part",
-        $properties: {
-          Size: [0.4, 0.4, 0.4],
-          Position: [frontFaceOffset, 0, 0], // Relative to parent (local coordinates)
-          Anchored: true,
-          Color: [0, 1, 0], // Green color for front face
-          Material: "Neon",
-          Shape: "Ball",
-        },
-        FrontPointAttachment: {
-          $className: "Attachment",
-          $properties: {
-            Position: [0, 0, 0], // Center of the point part
-          },
-        },
+      ...frontPoint,
+      ...backPoint,
+    },
+  };
+}
+
+// Helper function to create a point with attachment for child parts
+function createPointWithAttachment({ name, position, color }) {
+  return {
+    [name]: {
+      $className: "Part",
+      $properties: {
+        Size: [0.4, 0.4, 0.4],
+        Position: [position.x, position.y, position.z], // Relative to parent (local coordinates)
+        Anchored: true,
+        Color: [color.r, color.g, color.b],
+        Material: "Neon",
+        Shape: "Ball",
       },
-      BackPoint: {
-        $className: "Part",
+      [`${name}Attachment`]: {
+        $className: "Attachment",
         $properties: {
-          Size: [0.4, 0.4, 0.4],
-          Position: [backFaceOffset, 0, 0], // Relative to parent (local coordinates)
-          Anchored: true,
-          Color: [1, 0, 0], // Red color for back face
-          Material: "Neon",
-          Shape: "Ball",
-        },
-        BackPointAttachment: {
-          $className: "Attachment",
-          $properties: {
-            Position: [0, 0, 0], // Center of the point part
-          },
+          Position: [0, 0, 0], // Center of the point part
         },
       },
     },
