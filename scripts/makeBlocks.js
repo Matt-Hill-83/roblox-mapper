@@ -54,14 +54,14 @@ currentX += spacing;
 
 //
 // Generate a hexagonsafd
-// makeHexagon({
-//   project,
-//   id: "hex1",
-//   centerPosition: [currentX, 2, 0],
-//   width: 10,
-//   height: 4,
-// });
-// currentX += spacing;
+makeHexagon({
+  project,
+  id: "hex1",
+  centerPosition: [currentX, 2, 0],
+  width: 10,
+  height: 4,
+});
+currentX += spacing;
 
 // Generate a hex stack
 // makeHexStack({

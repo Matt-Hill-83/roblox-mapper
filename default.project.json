@@ -127,6 +127,156 @@
               ]
             }
           }
+        },
+        "Rectanglehex1_bar1": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              4,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              16,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                2.5
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -2.5
+              ]
+            }
+          }
+        },
+        "Rectanglehex1_bar2": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              4,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              16,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              60,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                2.5
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -2.5
+              ]
+            }
+          }
+        },
+        "Rectanglehex1_bar3": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              8.660254037844386,
+              4,
+              5
+            ],
+            "Anchored": true,
+            "Color": [
+              0.9,
+              0.7,
+              0.3
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              16,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              120,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                2.5
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -2.5
+              ]
+            }
+          }
         }
       }
     }

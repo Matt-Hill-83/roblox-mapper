@@ -28,12 +28,12 @@ export function makeHexagon({
     const barProps = {
       Size: [barWidth, barHeight, barLength], // Calculated width for proper hexagon
       Color: [0.9, 0.7, 0.3], // Golden color
-      Rotation: [0, rotation, 0],
     };
 
     const bar = makeBar({
       id: `${id}_bar${i + 1}`,
-      position: centerPosition,
+      position: { x: centerPosition[0], y: centerPosition[1], z: centerPosition[2] },
+      rotation: { x: 0, y: rotation, z: 0 },
       props: barProps,
     });
 
