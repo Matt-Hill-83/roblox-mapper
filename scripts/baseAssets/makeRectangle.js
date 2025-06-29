@@ -1,4 +1,4 @@
-// Rectangle Generator - Creates blue rectangular blocks
+// Rectangle Generator
 export function generateRectangle(id, position = [0, 0, 0]) {
   return {
     [`Rectangle${id}`]: {

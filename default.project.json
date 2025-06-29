@@ -36,21 +36,26 @@
               2,
               8
             ],
-            "Position": [
-              0,
-              2,
-              0
-            ],
             "Anchored": true,
             "Color": [
-              0.2,
-              0.4,
+              1,
+              1,
               0.8
             ],
             "Material": "Plastic",
             "Shape": "Block",
             "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
+            "BottomSurface": "Smooth",
+            "Position": [
+              16,
+              2,
+              0
+            ],
+            "Rotation": [
+              0,
+              -15,
+              0
+            ]
           }
         },
         "Rectangle2": {
@@ -74,206 +79,6 @@
             ],
             "Material": "Plastic",
             "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Rectangle3": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Position": [
-              16,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.4,
-              0.8
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Rectangle4": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Position": [
-              24,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.4,
-              0.8
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Rectangle5": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Position": [
-              32,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.4,
-              0.8
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Rectangle6": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Position": [
-              40,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.4,
-              0.8
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Square1": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              3,
-              3,
-              3
-            ],
-            "Position": [
-              48,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.8,
-              0.2,
-              0.2
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Square2": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              3,
-              3,
-              3
-            ],
-            "Position": [
-              56,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.8,
-              0.2,
-              0.2
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Cylinder1": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              6,
-              4
-            ],
-            "Position": [
-              64,
-              3,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.8,
-              0.2
-            ],
-            "Material": "Plastic",
-            "Shape": "Cylinder",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Cylinder2": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              6,
-              4
-            ],
-            "Position": [
-              72,
-              3,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.8,
-              0.2
-            ],
-            "Material": "Plastic",
-            "Shape": "Cylinder",
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth"
           }

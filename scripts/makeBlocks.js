@@ -1,6 +1,7 @@
 // Main Block Generator - Combines all shapes into one JSON file
 import fs from "fs";
 import { generateSquare } from "./baseAssets/makeSquare.js";
+import { makeBar } from "./baseAssets/makeBar.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
 import { createRectangles } from "./createRectangles.js";
 import { config } from "./config.js";
@@ -25,28 +26,23 @@ currentX = createRectangles({
   spacing,
 });
 
-// Generate squares
-console.log(`🔶 Generating ${config.squares} squares...`);
-for (let i = 1; i <= config.squares; i++) {
-  const square = generateSquare(i, [currentX, 2, 0]);
-  Object.assign(project.tree.Workspace.MyStuff, square);
-  currentX += spacing;
-}
-
-// Generate cylinders
-console.log(`🔵 Generating ${config.cylinders} cylinders...`);
-for (let i = 1; i <= config.cylinders; i++) {
-  const cylinder = generateCylinder(i, [currentX, 3, 0]);
-  Object.assign(project.tree.Workspace.MyStuff, cylinder);
-  currentX += spacing;
-}
-
+// Generate a single bar
+console.log(`🟫 Generating 1 bar...`);
+const barProps = {
+  Color: [1, 1, 0.8], // Light yellow RGB
+  Rotation: [0, -15, 0], // 45 degrees clockwise around Y-axis
+};
+const bar = makeBar({ id: 1, position: [currentX, 2, 0], props: barProps });
+Object.assign(project.tree.Workspace.MyStuff, bar);
+currentX += spacing;
+//
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 
-const totalObjects = config.rectangles + config.squares + config.cylinders;
+const totalObjects = config.rectangles + config.squares + config.cylinders + 1;
 console.log(`✅ Generated ${totalObjects} objects in default.project.json:`);
 console.log(`   - ${config.rectangles} blue rectangles`);
 console.log(`   - ${config.squares} red squares`);
 console.log(`   - ${config.cylinders} green cylinders`);
+console.log(`   - 1 light yellow bar`);
 console.log("🔄 Rojo will sync them to Studio automatically!");
