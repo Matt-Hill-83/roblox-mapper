@@ -116,108 +116,118 @@ const sports = [
   "badminton",
 ];
 
-export const teams = [
-  {
-    name: "barcalona",
-    players: [
-      players[0],
-      players[1],
-      players[2],
-      players[3],
-      players[4],
-      players[5],
-    ],
-    managers: [managers[0], managers[1]],
-    country: countries[0],
-    city: cities[0],
-    animal: animals[0],
-    stadium: stadiums[0],
-    food: food[0],
-    sport: sports[0],
-  },
-  {
-    name: "manchester",
-    players: [
-      players[2],
-      players[3],
-      players[4],
-      players[5],
-      players[6],
-      players[7],
-    ],
-    managers: [managers[2], managers[3]],
-    country: countries[1],
-    city: cities[1],
-    animal: animals[1],
-    stadium: stadiums[1],
-    food: food[1],
-    sport: sports[1],
-  },
-  {
-    name: "madrid",
-    players: [
-      players[4],
-      players[5],
-      players[6],
-      players[7],
-      players[8],
-      players[9],
-    ],
-    managers: [managers[4], managers[5]],
-    country: countries[2],
-    city: cities[2],
-    animal: animals[2],
-    stadium: stadiums[2],
-    food: food[2],
-    sport: sports[2],
-  },
-];
+const teams = ["team1", "team2", "team3"];
 
-export const nations = [
-  {
-    team: teams[0].name,
-    country: countries[0],
-    capitalCity: cities[0],
-    food: food[0],
-    team: teams[0],
-    sport: sports[0],
-    animal: animals[0],
-    stadium: stadiums[0],
-    color: teamColors[0],
-  },
-  {
-    team: teams[1].name,
-    country: countries[1],
-    capitalCity: cities[1],
-    food: food[1],
-    team: teams[1],
-    sport: sports[1],
-    animal: animals[1],
-    stadium: stadiums[1],
-    color: teamColors[1],
-  },
-  {
-    team: teams[2].name,
-    country: countries[2],
-    capitalCity: cities[2],
-    food: food[2],
-    team: teams[2],
-    sport: sports[2],
-    animal: animals[2],
-    stadium: stadiums[2],
-    color: teamColors[2],
-  },
-  {
-    team: teams[0].name,
-    country: countries[3],
-    capitalCity: cities[3],
-    food: food[3],
-    team: teams[0],
-    sport: sports[3],
-    animal: animals[3],
-    stadium: stadiums[3],
-    color: teamColors[3],
-  },
-];
+// export const nations = [
+//   {
+//     team: teams[0].name,
+//     country: countries[0],
+//     capitalCity: cities[0],
+//     food: food[0],
+//     team: teams[0],
+//     sport: sports[0],
+//     animal: animals[0],
+//     stadium: stadiums[0],
+//     color: teamColors[0],
+//   },
+//   {
+//     team: teams[1].name,
+//     country: countries[1],
+//     capitalCity: cities[1],
+//     food: food[1],
+//     team: teams[1],
+//     sport: sports[1],
+//     animal: animals[1],
+//     stadium: stadiums[1],
+//     color: teamColors[1],
+//   },
+//   {
+//     team: teams[2].name,
+//     country: countries[2],
+//     capitalCity: cities[2],
+//     food: food[2],
+//     team: teams[2],
+//     sport: sports[2],
+//     animal: animals[2],
+//     stadium: stadiums[2],
+//     color: teamColors[2],
+//   },
+//   {
+//     team: teams[0].name,
+//     country: countries[3],
+//     capitalCity: cities[3],
+//     food: food[3],
+//     team: teams[0],
+//     sport: sports[3],
+//     animal: animals[3],
+//     stadium: stadiums[3],
+//     color: teamColors[3],
+//   },
+// ];
 
-export const data = { teams, nations };
+// Utility function to create n random teams
+export function createTeams({ numTeams } = {}) {
+  const result = [];
+  for (let i = 0; i < numTeams; i++) {
+    const name = `team${i + 1}`;
+    const randomPlayers = Array.from(
+      { length: 6 },
+      () => players[Math.floor(Math.random() * players.length)]
+    );
+    const randomManagers = Array.from(
+      { length: 2 },
+      () => managers[Math.floor(Math.random() * managers.length)]
+    );
+    const country = countries[Math.floor(Math.random() * countries.length)];
+    const city = cities[Math.floor(Math.random() * cities.length)];
+    const animal = animals[Math.floor(Math.random() * animals.length)];
+    const stadium = stadiums[Math.floor(Math.random() * stadiums.length)];
+    const foodItem = food[Math.floor(Math.random() * food.length)];
+    const sport = sports[Math.floor(Math.random() * sports.length)];
+    const color = teamColors[Math.floor(Math.random() * teamColors.length)];
+    result.push({
+      name,
+      players: randomPlayers,
+      managers: randomManagers,
+      country,
+      city,
+      animal,
+      stadium,
+      food: foodItem,
+      sport,
+      color,
+    });
+  }
+  return result;
+}
+
+// Utility function to create n random nations
+export function createNations({ numNations } = {}) {
+  const result = [];
+  for (let i = 0; i < numNations; i++) {
+    // const team = teams[Math.floor(Math.random() * teams.length)];
+    const country = countries[Math.floor(Math.random() * countries.length)];
+    const capitalCity = cities[Math.floor(Math.random() * cities.length)];
+    const foodItem = food[Math.floor(Math.random() * food.length)];
+    const sport = sports[Math.floor(Math.random() * sports.length)];
+    const animal = animals[Math.floor(Math.random() * animals.length)];
+    const stadium = stadiums[Math.floor(Math.random() * stadiums.length)];
+    const color = teamColors[Math.floor(Math.random() * teamColors.length)];
+    result.push({
+      // team: team.name,
+      country,
+      capitalCity,
+      food: foodItem,
+      // team,
+      sport,
+      animal,
+      stadium,
+      color,
+    });
+  }
+  return result;
+}
+
+const newTeams = createTeams({ numTeams: 10 }); // Create 10 random teams
+const newNations = createNations({ numNations: 10 }); // Create 10 random nations
+export const data = { newTeams, newNations };

@@ -1,5 +1,5 @@
 import { makeSmartHexStack } from "./makeSmartHexStack.js";
-import { teams } from "./config.js";
+import { data } from "./config.js";
 
 export function makeTeamsStack({
   project,
@@ -9,7 +9,8 @@ export function makeTeamsStack({
   height = 2,
   maxItems = 1, // new parameter with default
 }) {
-  const slicedTeams = teams.slice(0, maxItems); // Use maxItems in slice
+  const slicedTeams = data.newTeams.slice(0, maxItems); // Use maxItems in slice
+  // const slicedTeams = teams.slice(0, maxItems); // Use maxItems in slice
   const stackItemsTeams = slicedTeams.map((item) => {
     const labels = [
       item.sport,

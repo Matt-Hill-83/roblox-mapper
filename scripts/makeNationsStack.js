@@ -1,5 +1,5 @@
 import { makeSmartHexStack } from "./makeSmartHexStack.js";
-import { nations } from "./config.js";
+import { data } from "./config.js";
 
 export function makeNationsStack({
   project,
@@ -9,7 +9,7 @@ export function makeNationsStack({
   height = 2,
   maxItems = 1, // new parameter with default
 }) {
-  const slicedNations = nations.slice(0, maxItems); // Use maxItems in slice
+  const slicedNations = data.newNations.slice(0, maxItems); // Use maxItems in slice
   const stackItemsNations = slicedNations.map((item) => {
     const labels = [
       item.sport,

@@ -5,7 +5,7 @@ import { makeHexagon } from "./makeHexagon.js";
 import { makeHexStack } from "./makeHexStack.js";
 import { makeTeamsStack } from "./makeTeamsStack.js";
 import { makeNationsStack } from "./makeNationsStack.js";
-import { config, teams, attachments } from "./config.js";
+import { config, attachments } from "./config.js";
 
 // Read current project file
 const projectPath = "./default.project.json";
