@@ -1,6 +1,6 @@
 import { colors } from "../colors.js";
 
-console.log(`colors`, colors);
+// console.log(`colors`, colors);
 const defaultProps = {
   Size: [4, 2, 8],
   Anchored: true,
@@ -12,7 +12,7 @@ const defaultProps = {
   Transparency: 0,
 };
 
-const pointSize = 1;
+const pointSize = 0.1;
 
 function makeSurfaceGui(face, label, blockColor) {
   return {
@@ -50,7 +50,7 @@ function makeCircle(name, x, y, z, color) {
   return {
     $className: "Part",
     $properties: {
-      Size: [0.4, 0.4, 0.4],
+      Size: [pointSize, pointSize, pointSize],
       Position: [x, y, z],
       Anchored: true,
       Color: color,

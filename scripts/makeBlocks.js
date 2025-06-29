@@ -62,7 +62,7 @@ const hexStackModels = makeHexStack({
   centerPosition: [currentX, 2, 0],
   width: 8,
   height: 2,
-  count: 3,
+  count: 10,
 });
 currentX += spacing;
 

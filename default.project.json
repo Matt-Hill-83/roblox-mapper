@@ -132,9 +132,9 @@
             "$className": "Part",
             "$properties": {
               "Size": [
-                0.4,
-                0.4,
-                0.4
+                0.1,
+                0.1,
+                0.1
               ],
               "Position": [
                 1.9999999999999998,
@@ -155,9 +155,9 @@
             "$className": "Part",
             "$properties": {
               "Size": [
-                0.4,
-                0.4,
-                0.4
+                0.1,
+                0.1,
+                0.1
               ],
               "Position": [
                 -1.9999999999999998,
@@ -187,9 +187,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.9,
-                0.7,
-                0.3
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -241,9 +241,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -268,9 +268,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -285,9 +285,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -308,9 +308,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -338,9 +338,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.9,
-                0.7,
-                0.3
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -392,9 +392,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -419,9 +419,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -436,9 +436,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -459,9 +459,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
@@ -489,9 +489,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.9,
-                0.7,
-                0.3
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -543,9 +543,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -570,9 +570,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.9,
-                    0.7,
-                    0.3
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
                   ],
                   "TextColor3": [
                     0,
@@ -587,9 +587,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -610,9 +610,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
@@ -643,9 +643,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.8,
-                0.3,
-                0.3
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -697,9 +697,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -724,9 +724,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -741,9 +741,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -764,9 +764,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -794,9 +794,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.8,
-                0.3,
-                0.3
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -848,9 +848,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -875,9 +875,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -892,9 +892,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -915,9 +915,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
@@ -945,9 +945,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.8,
-                0.3,
-                0.3
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -999,9 +999,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -1026,9 +1026,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.8,
-                    0.3,
-                    0.3
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
                   ],
                   "TextColor3": [
                     0,
@@ -1043,9 +1043,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -1066,9 +1066,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
@@ -1099,9 +1099,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.3,
-                0.7,
-                0.3
+                0.29411765933036804,
+                0.5921568870544434,
+                0.29411765933036804
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -1153,9 +1153,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1180,9 +1180,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1197,9 +1197,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -1220,9 +1220,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   16,
@@ -1250,9 +1250,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.3,
-                0.7,
-                0.3
+                0.29411765933036804,
+                0.5921568870544434,
+                0.29411765933036804
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -1304,9 +1304,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1331,9 +1331,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1348,9 +1348,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -1371,9 +1371,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
@@ -1401,9 +1401,9 @@
               ],
               "Anchored": true,
               "Color": [
-                0.3,
-                0.7,
-                0.3
+                0.29411765933036804,
+                0.5921568870544434,
+                0.29411765933036804
               ],
               "Material": "Concrete",
               "Shape": "Block",
@@ -1455,9 +1455,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1482,9 +1482,9 @@
                   "TextSize": 48,
                   "Font": "SourceSans",
                   "BackgroundColor3": [
-                    0.3,
-                    0.7,
-                    0.3
+                    0.29411765933036804,
+                    0.5921568870544434,
+                    0.29411765933036804
                   ],
                   "TextColor3": [
                     0,
@@ -1499,9 +1499,9 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   19,
@@ -1522,13 +1522,3205 @@
               "$className": "Part",
               "$properties": {
                 "Size": [
-                  0.4,
-                  0.4,
-                  0.4
+                  0.1,
+                  0.1,
+                  0.1
                 ],
                 "Position": [
                   13,
                   6,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level4_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level4_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.05098039656877518,
+                0.4117647409439087,
+                0.6745098233222961
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                8,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  8,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  8,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level4_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.05098039656877518,
+                0.4117647409439087,
+                0.6745098233222961
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                8,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  8,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  8,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level4_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.05098039656877518,
+                0.4117647409439087,
+                0.6745098233222961
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                8,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.05098039656877518,
+                    0.4117647409439087,
+                    0.6745098233222961
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  8,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  8,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level5_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level5_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.38431376218795776,
+                0.14509804546833038,
+                0.8196079134941101
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                10,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  10,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  10,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level5_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.38431376218795776,
+                0.14509804546833038,
+                0.8196079134941101
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                10,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  10,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  10,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level5_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.38431376218795776,
+                0.14509804546833038,
+                0.8196079134941101
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                10,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.38431376218795776,
+                    0.14509804546833038,
+                    0.8196079134941101
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  10,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  10,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level6_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level6_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8549020290374756,
+                0.5215686559677124,
+                0.2549019753932953
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                12,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  12,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  12,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level6_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8549020290374756,
+                0.5215686559677124,
+                0.2549019753932953
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                12,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  12,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  12,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level6_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8549020290374756,
+                0.5215686559677124,
+                0.2549019753932953
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                12,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8549020290374756,
+                    0.5215686559677124,
+                    0.2549019753932953
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  12,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  12,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level7_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level7_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                0.5607843399047852,
+                0.6117647290229797
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                14,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  14,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  14,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level7_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                0.5607843399047852,
+                0.6117647290229797
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                14,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  14,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  14,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level7_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                0.5607843399047852,
+                0.6117647290229797
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                14,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0,
+                    0.5607843399047852,
+                    0.6117647290229797
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  14,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  14,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level8_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level8_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0.7490196228027344
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                16,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  16,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  16,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level8_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0.7490196228027344
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                16,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  16,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  16,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level8_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0.7490196228027344
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                16,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    1,
+                    0,
+                    0.7490196228027344
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  16,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  16,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level9_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level9_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                18,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  18,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  18,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level9_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                18,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  18,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  18,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level9_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                18,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.7686275243759155,
+                    0.1568627506494522,
+                    0.1098039299249649
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  18,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  18,
+                  1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          }
+        },
+        "hexStack1_level10_Hexagon": {
+          "$className": "Model",
+          "RectanglehexStack1_level10_bar1": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                20,
+                0
+              ],
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  20,
+                  3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  16,
+                  20,
+                  -3.4641016151377544
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level10_bar2": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                20,
+                0
+              ],
+              "Orientation": [
+                0,
+                60,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  20,
+                  1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  20,
+                  -1.7320508075688776
+                ],
+                "Anchored": true,
+                "Color": [
+                  1,
+                  0,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            }
+          },
+          "RectanglehexStack1_level10_bar3": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Anchored": true,
+              "Color": [
+                0.8431373238563538,
+                0.7725490927696228,
+                0.6039215922355652
+              ],
+              "Material": "Concrete",
+              "Shape": "Block",
+              "TopSurface": "Smooth",
+              "BottomSurface": "Smooth",
+              "Transparency": 0,
+              "Position": [
+                16,
+                20,
+                0
+              ],
+              "Orientation": [
+                0,
+                120,
+                0
+              ]
+            },
+            "FrontAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  3.4641016151377544
+                ]
+              }
+            },
+            "BackAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  -3.4641016151377544
+                ]
+              }
+            },
+            "FrontSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Front",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "FrontTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Front",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "BackSurfaceGui": {
+              "$className": "SurfaceGui",
+              "$properties": {
+                "Face": "Back",
+                "SizingMode": "PixelsPerStud",
+                "PixelsPerStud": 50
+              },
+              "BackTextBox": {
+                "$className": "TextBox",
+                "$properties": {
+                  "Text": "Back",
+                  "TextSize": 48,
+                  "Font": "SourceSans",
+                  "BackgroundColor3": [
+                    0.8431373238563538,
+                    0.7725490927696228,
+                    0.6039215922355652
+                  ],
+                  "TextColor3": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "BorderSizePixel": 10
+                }
+              }
+            },
+            "FrontCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  19,
+                  20,
+                  -1.7320508075688765
+                ],
+                "Anchored": true,
+                "Color": [
+                  0,
+                  1,
+                  0
+                ],
+                "Material": "Neon",
+                "Shape": "Ball"
+              }
+            },
+            "BackCircle": {
+              "$className": "Part",
+              "$properties": {
+                "Size": [
+                  0.1,
+                  0.1,
+                  0.1
+                ],
+                "Position": [
+                  13,
+                  20,
                   1.7320508075688765
                 ],
                 "Anchored": true,
