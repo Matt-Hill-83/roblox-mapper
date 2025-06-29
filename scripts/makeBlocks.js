@@ -1,9 +1,6 @@
 // Main Block Generator - Combines all shapes into one JSON file
 import fs from "fs";
-import { generateSquare } from "./baseAssets/makeSquare.js";
 import { makeBar } from "./baseAssets/makeBar.js";
-import { generateCylinder } from "./baseAssets/makeCylinder.js";
-import { createRectangles } from "./createRectangles.js";
 import { makeHexagon } from "./makeHexagon.js";
 import { makeHexStack } from "./makeHexStack.js";
 import { config } from "./config.js";
@@ -19,14 +16,6 @@ project.tree.Workspace.MyStuff = {
 
 let currentX = 0;
 const spacing = config.spacing;
-
-// Generate rectangles
-// currentX = createRectangles({
-//   project,
-//   count: config.rectangles,
-//   startX: currentX,
-//   spacing,
-// });
 
 // Generate a single bar
 console.log(`🟫 Generating 1 bar...`);
