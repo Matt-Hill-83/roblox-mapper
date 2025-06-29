@@ -4,7 +4,7 @@ import { generateSquare } from "./baseAssets/makeSquare.js";
 import { makeBar } from "./baseAssets/makeBar.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
 import { createRectangles } from "./createRectangles.js";
-import { createHexagon } from "./createHexagon.js";
+import { makeHexagon } from "./makeHexagon.js";
 import { config } from "./config.js";
 
 // Read current project file
@@ -38,7 +38,7 @@ Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
 
 // Generate a hexagon
-createHexagon({
+makeHexagon({
   project,
   id: "hex1",
   centerPosition: [currentX, 2, 0],

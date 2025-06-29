@@ -1,11 +1,12 @@
 // Hexagon Creation Module
 import { makeBar } from "./baseAssets/makeBar.js";
 
-export function createHexagon({
+export function makeHexagon({
   project,
   id = 1,
   centerPosition = [0, 2, 0],
   width = 10,
+  height = 0.5,
 }) {
   console.log(`⬡ Generating hexagon with 3 bars...`);
 
@@ -16,7 +17,7 @@ export function createHexagon({
   const radius = width / 2;
   const barLength = radius;
   const barWidth = radius * Math.sqrt(3); // Proper width for solid hexagon
-  const barHeight = 0.5; // Thin height
+  const barHeight = height; // Use passed-in height
 
   // Create 3 bars rotated 60 degrees apart
   const bars = [];

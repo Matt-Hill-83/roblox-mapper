@@ -13,7 +13,7 @@ const watcher = chokidar.watch(
     "scripts/makeBlocks.js",
     "scripts/config.js",
     "scripts/createRectangles.js",
-    "scripts/createHexagon.js",
+    "scripts/makeHexagon.js",
     "scripts/baseAssets/makeRectangle.js",
     "scripts/baseAssets/makeSquare.js",
     "scripts/baseAssets/makeCylinder.js",
