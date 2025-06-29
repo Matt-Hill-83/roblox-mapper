@@ -41,13 +41,14 @@ local function createRopeBetweenAttachmentsInstances(att0, att1)
 end
 
 
--- Example usage: connect ten random pairs of attachments with ropes
+-- Example usage: connect as many unique pairs of attachments as there are attachments (up to n ropes)
 local allAttachments = getAllAttachments()
 if #allAttachments >= 2 then
     local usedPairs = {}
     local attempts = 0
     local ropesCreated = 0
-    while ropesCreated < 10 and attempts < 100 do
+    local maxRopes = #allAttachments
+    while ropesCreated < maxRopes and attempts < maxRopes * 10 do
         local i = math.random(1, #allAttachments)
         local j = math.random(1, #allAttachments)
         if i ~= j then
@@ -60,7 +61,7 @@ if #allAttachments >= 2 then
         end
         attempts = attempts + 1
     end
-    if ropesCreated < 10 then
+    if ropesCreated < maxRopes then
         warn("Could only create " .. ropesCreated .. " unique ropes.")
     end
 else

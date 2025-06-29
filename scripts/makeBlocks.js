@@ -4,7 +4,7 @@ import { makeBar } from "./baseAssets/makeBar.js";
 import { makeHexagon } from "./makeHexagon.js";
 import { makeHexStack } from "./makeHexStack.js";
 import { makeTeamsStack } from "./makeTeamsStack.js";
-import { makeNationsStack } from "./makeNationsStack.js";
+import { makeNationStacks } from "./makeNationStacks.js";
 import { config, attachments } from "./config.js";
 
 // Read current project file
@@ -84,25 +84,13 @@ const teamsStackModels = makeTeamsStack({
 });
 currentX += spacing;
 
-// Use makeNationsStack to generate nations stack
-const nationsStackModels = makeNationsStack({
-  project,
-  id: "nationsStack1",
-  centerPosition: [currentX, 2, 0],
-  width: 8,
-  height: 2,
-  maxItems: 100,
-});
-currentX += spacing;
+// Use makeNationStacks to generate and add 5 nation stacks in a line
+currentX = makeNationStacks({ project, currentX, spacing, count: 5 });
 
 // Add each hexagon Model to MyStuff
-for (const modelObj of teamsStackModels) {
-  Object.assign(project.tree.Workspace.MyStuff, modelObj);
-}
-// Add each hexagon Model to MyStuff
-for (const modelObj of nationsStackModels) {
-  Object.assign(project.tree.Workspace.MyStuff, modelObj);
-}
+// for (const modelObj of teamsStackModels) {
+//   Object.assign(project.tree.Workspace.MyStuff, modelObj);
+// }
 
 // After all the stacks are made
 console.log("attachments", attachments);
@@ -113,5 +101,3 @@ fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 const totalObjects =
   config.rectangles + config.squares + config.cylinders + 1 + 3 + 12; // +12 for hex stack (4 levels × 3 bars)
 console.log(`✅ Generated ${totalObjects} objects in default.project.json:`);
-
-//
