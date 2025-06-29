@@ -8,12 +8,20 @@ console.log("📁 Watching: scripts/*.js");
 console.log("🔄 Auto-running create3blocks.js when changes detected\n");
 
 // Watch all JavaScript files in the scripts directory
-const watcher = chokidar.watch("scripts/create3blocks.js", {
-  persistent: true,
-  ignoreInitial: true,
-  usePolling: true, // Force polling for better compatibility
-  interval: 100     // Check every 100ms
-});
+const watcher = chokidar.watch(
+  [
+    "scripts/makeBlocks.js",
+    "scripts/baseAssets/makeRectangle.js",
+    "scripts/baseAssets/makeSquare.js",
+    "scripts/baseAssets/makeCylinder.js",
+  ],
+  {
+    persistent: true,
+    ignoreInitial: true,
+    usePolling: true, // Force polling for better compatibility
+    interval: 100, // Check every 100ms
+  }
+);
 
 let isRunning = false;
 
@@ -24,9 +32,9 @@ function runBlockScript() {
   }
 
   isRunning = true;
-  console.log("🚀 Running create3blocks.js...");
+  console.log("🚀 Running makeBlocks.js...");
 
-  const child = spawn("node", ["scripts/create3blocks.js"], {
+  const child = spawn("node", ["scripts/makeBlocks.js"], {
     stdio: "inherit",
     cwd: process.cwd(),
   });

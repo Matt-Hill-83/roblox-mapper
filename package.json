@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "watch": "node scripts/watch.js",
-    "create-blocks": "node scripts/create3blocks.js"
+    "create-blocks": "node scripts/makeBlocks.js"
   },
   "devDependencies": {
     "chokidar": "^4.0.0"
