@@ -24,14 +24,14 @@ console.log(`🟫 Generating 1 bar...`);
 const barProps = {
   Color: [1, 1, 0.8], // Light yellow RGB
 };
-const bar = makeBar({
-  id: 1,
-  position: { x: currentX, y: 2, z: 0 },
-  rotation: { x: 0, y: 30, z: 0 }, // Apply rotation during creation
-  props: barProps,
-});
+// const bar = makeBar({
+//   id: 1,
+//   position: { x: currentX, y: 2, z: 0 },
+//   rotation: { x: 0, y: 30, z: 0 }, // Apply rotation during creation
+//   props: barProps,
+// });
 
-Object.assign(project.tree.Workspace.MyStuff, bar);
+// Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
 // const bar2 = makeBar({
 //   id: 2,
