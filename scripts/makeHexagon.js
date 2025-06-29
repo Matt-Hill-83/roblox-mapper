@@ -7,6 +7,7 @@ export function makeHexagon({
   centerPosition = [0, 2, 0],
   width = 10,
   height = 0.5,
+  barProps = {},
 }) {
   console.log(`⬡ Generating hexagon with 3 bars...`);
 
@@ -25,16 +26,21 @@ export function makeHexagon({
   for (let i = 0; i < 3; i++) {
     const rotation = i * 60; // 0°, 60°, 120°
 
-    const barProps = {
+    const defaultBarProps = {
       Size: [barLength, barHeight, barWidth], // Swap width and length so Z is the long dimension
       Color: [0.9, 0.7, 0.3], // Golden color
+      ...barProps, // Spread any custom bar properties
     };
 
     const bar = makeBar({
       id: `${id}_bar${i + 1}`,
-      position: { x: centerPosition[0], y: centerPosition[1], z: centerPosition[2] },
+      position: {
+        x: centerPosition[0],
+        y: centerPosition[1],
+        z: centerPosition[2],
+      },
       rotation: { x: 0, y: rotation, z: 0 },
-      props: barProps,
+      props: defaultBarProps,
     });
 
     Object.assign(project.tree.Workspace.MyStuff, bar);

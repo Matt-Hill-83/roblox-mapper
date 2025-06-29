@@ -31,15 +31,15 @@ const bar = makeBar({
 
 Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
-const bar2 = makeBar({
-  id: 2,
-  position: { x: currentX, y: 2, z: 0 },
-  rotation: { x: 0, y: -30, z: 0 }, // Apply rotation during creation
-  props: barProps,
-});
+// const bar2 = makeBar({
+//   id: 2,
+//   position: { x: currentX, y: 2, z: 0 },
+//   rotation: { x: 0, y: -30, z: 0 }, // Apply rotation during creation
+//   props: barProps,
+// });
 
-Object.assign(project.tree.Workspace.MyStuff, bar2);
-currentX += spacing;
+// Object.assign(project.tree.Workspace.MyStuff, bar2);
+// currentX += spacing;
 
 //
 // Generate a hexagonsafd
@@ -49,6 +49,9 @@ makeHexagon({
   centerPosition: [currentX, 2, 0],
   width: 10,
   height: 4,
+  barProps: {
+    Color: [0.5, 1, 0.5], // Light green RGB
+  },
 });
 currentX += spacing;
 

@@ -125,103 +125,6 @@
             }
           }
         },
-        "Rectangle2": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Anchored": true,
-            "Color": [
-              1,
-              1,
-              0.8
-            ],
-            "Material": "Concrete",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Transparency": 0.5,
-            "Position": [
-              8,
-              2,
-              0
-            ],
-            "Orientation": [
-              0,
-              -30,
-              0
-            ]
-          },
-          "FrontAttachment": {
-            "$className": "Attachment",
-            "$properties": {
-              "Position": [
-                0,
-                0,
-                4
-              ]
-            }
-          },
-          "BackAttachment": {
-            "$className": "Attachment",
-            "$properties": {
-              "Position": [
-                0,
-                0,
-                -4
-              ]
-            }
-          },
-          "FrontCircle": {
-            "$className": "Part",
-            "$properties": {
-              "Size": [
-                0.4,
-                0.4,
-                0.4
-              ],
-              "Position": [
-                6,
-                2,
-                3.464101615137755
-              ],
-              "Anchored": true,
-              "Color": [
-                0,
-                1,
-                0
-              ],
-              "Material": "Neon",
-              "Shape": "Ball"
-            }
-          },
-          "BackCircle": {
-            "$className": "Part",
-            "$properties": {
-              "Size": [
-                0.4,
-                0.4,
-                0.4
-              ],
-              "Position": [
-                10,
-                2,
-                -3.464101615137755
-              ],
-              "Anchored": true,
-              "Color": [
-                1,
-                0,
-                0
-              ],
-              "Material": "Neon",
-              "Shape": "Ball"
-            }
-          }
-        },
         "Rectanglehex1_bar1": {
           "$className": "Part",
           "$properties": {
@@ -232,9 +135,9 @@
             ],
             "Anchored": true,
             "Color": [
-              0.9,
-              0.7,
-              0.3
+              0.5,
+              1,
+              0.5
             ],
             "Material": "Concrete",
             "Shape": "Block",
@@ -329,9 +232,9 @@
             ],
             "Anchored": true,
             "Color": [
-              0.9,
-              0.7,
-              0.3
+              0.5,
+              1,
+              0.5
             ],
             "Material": "Concrete",
             "Shape": "Block",
@@ -426,9 +329,9 @@
             ],
             "Anchored": true,
             "Color": [
-              0.9,
-              0.7,
-              0.3
+              0.5,
+              1,
+              0.5
             ],
             "Material": "Concrete",
             "Shape": "Block",
@@ -533,7 +436,7 @@
             "BottomSurface": "Smooth",
             "Transparency": 0.5,
             "Position": [
-              24,
+              32,
               2,
               0
             ],
@@ -572,7 +475,7 @@
                 0.4
               ],
               "Position": [
-                24,
+                32,
                 2,
                 3.4641016151377544
               ],
@@ -595,7 +498,7 @@
                 0.4
               ],
               "Position": [
-                24,
+                32,
                 2,
                 -3.4641016151377544
               ],
@@ -630,7 +533,7 @@
             "BottomSurface": "Smooth",
             "Transparency": 0.5,
             "Position": [
-              24,
+              32,
               2,
               0
             ],
@@ -669,7 +572,7 @@
                 0.4
               ],
               "Position": [
-                27,
+                35,
                 2,
                 1.7320508075688776
               ],
@@ -692,7 +595,7 @@
                 0.4
               ],
               "Position": [
-                21,
+                29,
                 2,
                 -1.7320508075688776
               ],
@@ -727,7 +630,7 @@
             "BottomSurface": "Smooth",
             "Transparency": 0.5,
             "Position": [
-              24,
+              32,
               2,
               0
             ],
@@ -766,7 +669,7 @@
                 0.4
               ],
               "Position": [
-                27,
+                35,
                 2,
                 -1.7320508075688765
               ],
@@ -789,7 +692,7 @@
                 0.4
               ],
               "Position": [
-                21,
+                29,
                 2,
                 1.7320508075688765
               ],
