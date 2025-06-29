@@ -1,3 +1,6 @@
+import { colors } from "../colors.js";
+
+console.log(`colors`, colors);
 const defaultProps = {
   Size: [4, 2, 8],
   Anchored: true,
@@ -26,9 +29,32 @@ function makeSurfaceGui(face, label) {
         TextSize: 14,
         Font: "SourceSans",
         // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
-        BackgroundColor3: [1, 1, 1],
+        BackgroundColor3: colors["Brick yellow"],
         TextColor3: [0, 0, 0],
       },
+    },
+  };
+}
+
+function makeAttachment(name, offset) {
+  return {
+    $className: "Attachment",
+    $properties: {
+      Position: [0, 0, offset],
+    },
+  };
+}
+
+function makeCircle(name, x, y, z, color) {
+  return {
+    $className: "Part",
+    $properties: {
+      Size: [0.4, 0.4, 0.4],
+      Position: [x, y, z],
+      Anchored: true,
+      Color: color,
+      Material: "Neon",
+      Shape: "Ball",
     },
   };
 }
@@ -65,42 +91,18 @@ export function makeBar({
         Position: [position.x, position.y, position.z],
         Orientation: [rotation.x, rotation.y, rotation.z],
       },
-      FrontAttachment: {
-        $className: "Attachment",
-        $properties: {
-          Position: [0, 0, frontFaceOffset],
-        },
-      },
-      BackAttachment: {
-        $className: "Attachment",
-        $properties: {
-          Position: [0, 0, backFaceOffset],
-        },
-      },
+      FrontAttachment: makeAttachment("FrontAttachment", frontFaceOffset),
+      BackAttachment: makeAttachment("BackAttachment", backFaceOffset),
       FrontSurfaceGui: makeSurfaceGui("Front", "Front"),
       BackSurfaceGui: makeSurfaceGui("Back", "Back"),
-      FrontCircle: {
-        $className: "Part",
-        $properties: {
-          Size: [0.4, 0.4, 0.4],
-          Position: [frontX, position.y, frontZ],
-          Anchored: true,
-          Color: [0, 1, 0],
-          Material: "Neon",
-          Shape: "Ball",
-        },
-      },
-      BackCircle: {
-        $className: "Part",
-        $properties: {
-          Size: [0.4, 0.4, 0.4],
-          Position: [backX, position.y, backZ],
-          Anchored: true,
-          Color: [1, 0, 0],
-          Material: "Neon",
-          Shape: "Ball",
-        },
-      },
+      FrontCircle: makeCircle(
+        "FrontCircle",
+        frontX,
+        position.y,
+        frontZ,
+        [0, 1, 0]
+      ),
+      BackCircle: makeCircle("BackCircle", backX, position.y, backZ, [1, 0, 0]),
     },
   };
 

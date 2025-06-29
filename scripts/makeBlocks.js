@@ -61,8 +61,8 @@ makeHexStack({
   id: "hexStack1",
   centerPosition: [currentX, 2, 0],
   width: 8,
-  height: 1,
-  count: 5,
+  height: 2,
+  count: 3,
 });
 currentX += spacing;
 // Write back to file
