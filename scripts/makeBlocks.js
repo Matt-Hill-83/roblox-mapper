@@ -56,15 +56,21 @@ currentX += spacing;
 // currentX += spacing;
 
 // // Generate a hex stack
-makeHexStack({
+const hexStackModels = makeHexStack({
   project,
   id: "hexStack1",
   centerPosition: [currentX, 2, 0],
   width: 8,
   height: 2,
-  count: 3,
+  count: 1,
 });
 currentX += spacing;
+
+// Add each hexagon Model to MyStuff
+for (const modelObj of hexStackModels) {
+  Object.assign(project.tree.Workspace.MyStuff, modelObj);
+}
+
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 

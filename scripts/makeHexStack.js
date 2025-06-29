@@ -34,7 +34,7 @@ export function makeHexStack({
     const levelColor = colorPalette[level % colorPalette.length];
 
     // Create a hexagon for this level
-    const hexBars = makeHexagon({
+    const hexModel = makeHexagon({
       project,
       id: `${id}_level${level + 1}`,
       centerPosition: levelPosition,
@@ -45,7 +45,8 @@ export function makeHexStack({
       },
     });
 
-    allBars.push(...hexBars);
+    // hexModel is an object with a single key (the Model name)
+    allBars.push(hexModel);
   }
 
   return allBars;

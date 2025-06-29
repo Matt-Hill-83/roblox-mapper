@@ -22,6 +22,7 @@ export function makeHexagon({
 
   // Create 3 bars rotated 60 degrees apart
   const bars = [];
+  const barsObj = {};
 
   for (let i = 0; i < 3; i++) {
     const rotation = i * 60; // 0°, 60°, 120°
@@ -43,9 +44,19 @@ export function makeHexagon({
       props: defaultBarProps,
     });
 
-    Object.assign(project.tree.Workspace.MyStuff, bar);
+    // Instead of assigning to project.tree.Workspace.MyStuff, collect bars as children
+    Object.assign(barsObj, bar);
     bars.push(bar);
   }
 
-  return bars;
+  // Wrap bars in a Model (Group) instance
+  const hexModel = {
+    [`${id}_Hexagon`]: {
+      $className: "Model",
+      // Children are the bars
+      ...barsObj,
+    },
+  };
+
+  return hexModel;
 }
