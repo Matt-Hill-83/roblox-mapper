@@ -78,6 +78,106 @@
             "BottomSurface": "Smooth"
           }
         },
+        "Rectangle3": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              16,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "Rectangle4": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "Rectangle5": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              32,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "Rectangle6": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              40,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
         "Square1": {
           "$className": "Part",
           "$properties": {
@@ -87,7 +187,7 @@
               3
             ],
             "Position": [
-              16,
+              48,
               2,
               0
             ],
@@ -112,7 +212,7 @@
               3
             ],
             "Position": [
-              24,
+              56,
               2,
               0
             ],
@@ -137,7 +237,7 @@
               4
             ],
             "Position": [
-              32,
+              64,
               3,
               0
             ],
@@ -162,7 +262,7 @@
               4
             ],
             "Position": [
-              40,
+              72,
               3,
               0
             ],

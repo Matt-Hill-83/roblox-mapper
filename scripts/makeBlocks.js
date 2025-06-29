@@ -1,8 +1,8 @@
 // Main Block Generator - Combines all shapes into one JSON file
 import fs from "fs";
-import { generateRectangle } from "./baseAssets/makeRectangle.js";
 import { generateSquare } from "./baseAssets/makeSquare.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
+import { createRectangles } from "./createRectangles.js";
 import { config } from "./config.js";
 
 // Read current project file
@@ -18,12 +18,12 @@ let currentX = 0;
 const spacing = config.spacing;
 
 // Generate rectangles
-console.log(`🔷 Generating ${config.rectangles} rectangles...`);
-for (let i = 1; i <= config.rectangles; i++) {
-  const rectangle = generateRectangle(i, [currentX, 2, 0]);
-  Object.assign(project.tree.Workspace.MyStuff, rectangle);
-  currentX += spacing;
-}
+currentX = createRectangles({
+  project,
+  count: config.rectangles,
+  startX: currentX,
+  spacing,
+});
 
 // Generate squares
 console.log(`🔶 Generating ${config.squares} squares...`);
