@@ -53,74 +53,78 @@
             ],
             "Orientation": [
               0,
-              0,
+              30,
               0
             ]
           },
-          "FrontPoint": {
-            "$className": "Part",
+          "FrontAttachment": {
+            "$className": "Attachment",
             "$properties": {
-              "Size": [
-                0.4,
-                0.4,
-                0.4
-              ],
               "Position": [
                 0,
-                2,
-                4
-              ],
-              "Anchored": true,
-              "Color": [
                 0,
-                1,
-                0
-              ],
-              "Material": "Neon",
-              "Shape": "Ball"
-            },
-            "FrontPointAttachment": {
-              "$className": "Attachment",
-              "$properties": {
-                "Position": [
-                  0,
-                  0,
-                  0
-                ]
-              }
+                4
+              ]
             }
           },
-          "BackPoint": {
-            "$className": "Part",
+          "BackAttachment": {
+            "$className": "Attachment",
             "$properties": {
-              "Size": [
-                0.4,
-                0.4,
-                0.4
-              ],
               "Position": [
                 0,
-                2,
-                -4
-              ],
-              "Anchored": true,
-              "Color": [
-                1,
                 0,
-                0
-              ],
-              "Material": "Neon",
-              "Shape": "Ball"
-            },
-            "BackPointAttachment": {
-              "$className": "Attachment",
-              "$properties": {
-                "Position": [
-                  0,
-                  0,
-                  0
-                ]
-              }
+                -4
+              ]
+            }
+          }
+        },
+        "Rectangle2": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Anchored": true,
+            "Color": [
+              1,
+              1,
+              0.8
+            ],
+            "Material": "Concrete",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth",
+            "Position": [
+              8,
+              2,
+              0
+            ],
+            "Orientation": [
+              0,
+              -30,
+              0
+            ]
+          },
+          "FrontAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                4
+              ]
+            }
+          },
+          "BackAttachment": {
+            "$className": "Attachment",
+            "$properties": {
+              "Position": [
+                0,
+                0,
+                -4
+              ]
             }
           }
         }
