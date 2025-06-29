@@ -3,9 +3,9 @@ import { attachments } from "../config.js";
 
 // console.log(`colors`, colors);
 const defaultProps = {
-  Size: [4, 2, 8],
+  // Size: [4, 2, 8],
   Anchored: true,
-  Color: [0.2, 0.4, 0.8],
+  // Color: [0.2, 0.4, 0.8],
   Material: "Concrete",
   Shape: "Block",
   TopSurface: "Smooth",

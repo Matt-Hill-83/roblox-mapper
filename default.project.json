@@ -29,22 +29,22 @@
           "RectangleteamsStack1_level1_bar1": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 32,
                 2,
@@ -182,22 +182,22 @@
           "RectangleteamsStack1_level1_bar2": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 32,
                 2,
@@ -335,22 +335,22 @@
           "RectangleteamsStack1_level1_bar3": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 32,
                 2,
@@ -491,22 +491,22 @@
           "RectanglenationsStack1_level1_bar1": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 48,
                 2,
@@ -644,22 +644,22 @@
           "RectanglenationsStack1_level1_bar2": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 48,
                 2,
@@ -797,22 +797,22 @@
           "RectanglenationsStack1_level1_bar3": {
             "$className": "Part",
             "$properties": {
-              "Size": [
-                4,
-                2,
-                6.928203230275509
-              ],
               "Anchored": true,
-              "Color": [
-                0.7686275243759155,
-                0.1568627506494522,
-                0.1098039299249649
-              ],
               "Material": "Concrete",
               "Shape": "Block",
               "TopSurface": "Smooth",
               "BottomSurface": "Smooth",
               "Transparency": 0,
+              "Size": [
+                4,
+                2,
+                6.928203230275509
+              ],
+              "Color": [
+                0.7686275243759155,
+                0.1568627506494522,
+                0.1098039299249649
+              ],
               "Position": [
                 48,
                 2,
