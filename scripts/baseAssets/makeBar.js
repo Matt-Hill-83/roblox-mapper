@@ -16,31 +16,33 @@ export function makeBar({
   rotation = { x: 0, y: 0, z: 0 },
   props = {},
 }) {
+  // First create the bar properties WITHOUT rotation
   const finalProps = {
     ...defaultProps,
     Position: [position.x, position.y, position.z],
-    Orientation: [rotation.x, rotation.y, rotation.z], // Use Orientation instead of Rotation for proper CFrame handling
+    // No rotation here - create unrotated first
     ...props,
   };
 
-  // Calculate the positions for points on faces perpendicular to X axis
-  const barWidth = finalProps.Size[0]; // X dimension
-  const frontFaceOffset = barWidth / 2; // Front face (positive X)
-  const backFaceOffset = -barWidth / 2; // Back face (negative X)
+  // Calculate the positions for points on faces perpendicular to Z axis (short faces)
+  const barLength = finalProps.Size[2]; // Z dimension
+  const frontFaceOffset = barLength / 2; // Front face (positive Z)
+  const backFaceOffset = -barLength / 2; // Back face (negative Z)
 
-  // Create points using the helper function
+  // Create points using the helper function with world coordinates
   const frontPoint = createPointWithAttachment({
     name: "FrontPoint",
-    position: { x: frontFaceOffset, y: 0, z: 0 },
+    position: { x: position.x, y: position.y, z: position.z + frontFaceOffset },
     color: { r: 0, g: 1, b: 0 }, // Green
   });
   const backPoint = createPointWithAttachment({
     name: "BackPoint",
-    position: { x: backFaceOffset, y: 0, z: 0 },
+    position: { x: position.x, y: position.y, z: position.z + backFaceOffset },
     color: { r: 1, g: 0, b: 0 }, // Red
   });
 
-  return {
+  // Create the complete bar structure
+  const bar = {
     [`Rectangle${id}`]: {
       $className: "Part",
       $properties: finalProps,
@@ -48,6 +50,12 @@ export function makeBar({
       ...backPoint,
     },
   };
+
+  // NOW apply rotation to the main bar part
+  const barKey = Object.keys(bar)[0];
+  bar[barKey].$properties.Orientation = [rotation.x, rotation.y, rotation.z];
+
+  return bar;
 }
 
 // Helper function to create a point with attachment for child parts

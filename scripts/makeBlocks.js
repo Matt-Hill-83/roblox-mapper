@@ -20,14 +20,14 @@ project.tree.Workspace.MyStuff = {
 let currentX = 0;
 const spacing = config.spacing;
 
-// // Generate rectangles
+// Generate rectangles
 // currentX = createRectangles({
 //   project,
 //   count: config.rectangles,
 //   startX: currentX,
 //   spacing,
 // });
-//
+
 // Generate a single bar
 console.log(`🟫 Generating 1 bar...`);
 const barProps = {
@@ -36,12 +36,22 @@ const barProps = {
 const bar = makeBar({
   id: 1,
   position: { x: currentX, y: 2, z: 0 },
-  rotation: { x: 0, y: -30, z: 0 }, // Apply rotation during creation
+  rotation: { x: 0, y: 0, z: 0 }, // Apply rotation during creation
   props: barProps,
 });
 
 Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
+// const bar2 = makeBar({
+//   id: 1,
+//   position: { x: currentX, y: 2, z: 0 },
+//   rotation: { x: 0, y: -30, z: 0 }, // Apply rotation during creation
+//   props: barProps,
+// });
+
+// Object.assign(project.tree.Workspace.MyStuff, bar2);
+// currentX += spacing;
+
 //
 // Generate a hexagonsafd
 // makeHexagon({

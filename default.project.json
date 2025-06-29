@@ -53,7 +53,7 @@
             ],
             "Orientation": [
               0,
-              -30,
+              0,
               0
             ]
           },
@@ -66,9 +66,9 @@
                 0.4
               ],
               "Position": [
-                2,
                 0,
-                0
+                2,
+                4
               ],
               "Anchored": true,
               "Color": [
@@ -99,9 +99,9 @@
                 0.4
               ],
               "Position": [
-                -2,
                 0,
-                0
+                2,
+                -4
               ],
               "Anchored": true,
               "Color": [
