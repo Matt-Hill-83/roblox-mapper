@@ -43,26 +43,26 @@ currentX += spacing;
 
 //
 // Generate a hexagonsafd
-makeHexagon({
-  project,
-  id: "hex1",
-  centerPosition: [currentX, 2, 0],
-  width: 10,
-  height: 4,
-  barProps: {
-    Color: [0.5, 1, 0.5], // Light green RGB
-  },
-});
-currentX += spacing;
+// makeHexagon({
+//   project,
+//   id: "hex1",
+//   centerPosition: [currentX, 2, 0],
+//   width: 10,
+//   height: 4,
+//   barProps: {
+//     Color: [0.5, 1, 0.5], // Light green RGB
+//   },
+// });
+// currentX += spacing;
 
-// Generate a hex stack
+// // Generate a hex stack
 makeHexStack({
   project,
   id: "hexStack1",
   centerPosition: [currentX, 2, 0],
   width: 8,
   height: 1,
-  count: 1,
+  count: 5,
 });
 currentX += spacing;
 // Write back to file

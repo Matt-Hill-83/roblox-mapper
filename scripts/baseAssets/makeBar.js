@@ -1,12 +1,12 @@
 const defaultProps = {
-  Size: [4, 2, 8], // Rectangle: wider and longer than tall
+  Size: [4, 2, 8],
   Anchored: true,
-  Color: [0.2, 0.4, 0.8], // Blue
+  Color: [0.2, 0.4, 0.8],
   Material: "Concrete",
   Shape: "Block",
   TopSurface: "Smooth",
   BottomSurface: "Smooth",
-  Transparency: 0, // 50% transparency
+  Transparency: 0,
 };
 
 const pointSize = 1;
@@ -17,29 +17,24 @@ export function makeBar({
   rotation = { x: 0, y: -30, z: 0 },
   props = {},
 }) {
-  // First create the bar properties
   const finalProps = {
     ...defaultProps,
     ...props,
   };
 
-  // Calculate the positions for attachments on faces perpendicular to Z axis (short faces)
-  const barLength = finalProps.Size[2]; // Z dimension
-  const frontFaceOffset = barLength / 2; // Front face (positive Z)
-  const backFaceOffset = -barLength / 2; // Back face (negative Z)
+  const barLength = finalProps.Size[2];
+  const frontFaceOffset = barLength / 2;
+  const backFaceOffset = -barLength / 2;
 
-  // Calculate rotated positions for the circles
   const radY = (rotation.y * Math.PI) / 180;
   const cosY = Math.cos(radY);
   const sinY = Math.sin(radY);
 
-  // Rotate the front and back offsets around Y axis
   const frontX = position.x + sinY * frontFaceOffset;
   const frontZ = position.z + cosY * frontFaceOffset;
   const backX = position.x + sinY * backFaceOffset;
   const backZ = position.z + cosY * backFaceOffset;
 
-  // Create the complete bar structure with attachments and indicator circles
   const bar = {
     [`Rectangle${id}`]: {
       $className: "Part",
@@ -51,13 +46,32 @@ export function makeBar({
       FrontAttachment: {
         $className: "Attachment",
         $properties: {
-          Position: [0, 0, frontFaceOffset], // Relative to parent center
+          Position: [0, 0, frontFaceOffset],
         },
       },
       BackAttachment: {
         $className: "Attachment",
         $properties: {
-          Position: [0, 0, backFaceOffset], // Relative to parent center
+          Position: [0, 0, backFaceOffset],
+        },
+      },
+      FrontSurfaceGui: {
+        $className: "SurfaceGui",
+        $properties: {
+          Face: "Front",
+          SizingMode: "PixelsPerStud",
+          PixelsPerStud: 50,
+        },
+        FrontTextBox: {
+          $className: "TextBox",
+          $properties: {
+            Text: "Front",
+            TextSize: 14,
+            Font: "SourceSans",
+            // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
+            BackgroundColor3: [1, 1, 1],
+            TextColor3: [0, 0, 0],
+          },
         },
       },
       FrontCircle: {
@@ -66,7 +80,7 @@ export function makeBar({
           Size: [0.4, 0.4, 0.4],
           Position: [frontX, position.y, frontZ],
           Anchored: true,
-          Color: [0, 1, 0], // Green
+          Color: [0, 1, 0],
           Material: "Neon",
           Shape: "Ball",
         },
@@ -77,7 +91,7 @@ export function makeBar({
           Size: [0.4, 0.4, 0.4],
           Position: [backX, position.y, backZ],
           Anchored: true,
-          Color: [1, 0, 0], // Red
+          Color: [1, 0, 0],
           Material: "Neon",
           Shape: "Ball",
         },
