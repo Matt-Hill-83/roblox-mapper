@@ -5,7 +5,7 @@ import { makeHexagon } from "./makeHexagon.js";
 import { makeHexStack } from "./makeHexStack.js";
 import { makeTeamsStack } from "./makeTeamsStack.js";
 import { makeNationsStack } from "./makeNationsStack.js";
-import { config, teams } from "./config.js";
+import { config, teams, attachments } from "./config.js";
 
 // Read current project file
 const projectPath = "./default.project.json";
@@ -59,16 +59,20 @@ currentX += spacing;
 
 // // Generate a hex stack
 
-const hexStackModels = makeHexStack({
-  project,
-  id: "hexStack1",
-  centerPosition: [currentX, 2, 0],
-  width: 8,
-  height: 2,
-  count: 10,
-});
+// const hexStackModels = makeHexStack({
+//   project,
+//   id: "hexStack1",
+//   centerPosition: [currentX, 2, 0],
+//   width: 8,
+//   height: 2,
+//   count: 10,
+// });
 currentX += spacing;
 
+// // Add each hexagon Model to MyStuff
+// for (const modelObj of hexStackModels) {
+//   Object.assign(project.tree.Workspace.MyStuff, modelObj);
+// }
 // Use makeTeamsStack instead
 const teamsStackModels = makeTeamsStack({
   project,
@@ -90,10 +94,6 @@ const nationsStackModels = makeNationsStack({
 currentX += spacing;
 
 // Add each hexagon Model to MyStuff
-for (const modelObj of hexStackModels) {
-  Object.assign(project.tree.Workspace.MyStuff, modelObj);
-}
-// Add each hexagon Model to MyStuff
 for (const modelObj of teamsStackModels) {
   Object.assign(project.tree.Workspace.MyStuff, modelObj);
 }
@@ -101,6 +101,9 @@ for (const modelObj of teamsStackModels) {
 for (const modelObj of nationsStackModels) {
   Object.assign(project.tree.Workspace.MyStuff, modelObj);
 }
+
+// After all the stacks are made
+console.log("attachments", attachments);
 
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));

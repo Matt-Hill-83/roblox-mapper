@@ -8,7 +8,8 @@ export function makeTeamsStack({
   width = 8,
   height = 2,
 }) {
-  const stackItemsTeams = teams.map((item) => {
+  const slicedTeams = teams.slice(0, 1); // Limit to first 3 teams for testing
+  const stackItemsTeams = slicedTeams.map((item) => {
     const labels = [
       item.sport,
       item.country,

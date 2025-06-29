@@ -6,7 +6,7 @@ export const config = {
   spacing: 16, // Space between objects
 };
 
-// sadf
+export const attachments = [];
 
 const players = [
   { name: "bob", age: 30, eyeColor: "blue" },

@@ -1,4 +1,5 @@
 import { colors } from "../colors.js";
+import { attachments } from "../config.js";
 
 // console.log(`colors`, colors);
 const defaultProps = {
@@ -36,10 +37,13 @@ function makeSurfaceGui(face, label, blockColor) {
   };
 }
 
-function makeAttachment(name, offset) {
+function makeAttachment(name, offset, id) {
+  // Add the id to the attachments array
+  if (id) attachments.push(id);
   return {
     $className: "Attachment",
     $properties: {
+      Name: id, // Set the Name property to match the id
       Position: [0, 0, offset],
     },
   };
@@ -95,8 +99,16 @@ export function makeBar({
         Position: [position.x, position.y, position.z],
         Orientation: [rotation.x, rotation.y, rotation.z],
       },
-      FrontAttachment: makeAttachment("FrontAttachment", frontFaceOffset),
-      BackAttachment: makeAttachment("BackAttachment", backFaceOffset),
+      FrontAttachment: makeAttachment(
+        "FrontAttachment",
+        frontFaceOffset,
+        `Rectangle${id}_FrontAttachment`
+      ),
+      BackAttachment: makeAttachment(
+        "BackAttachment",
+        backFaceOffset,
+        `Rectangle${id}_BackAttachment`
+      ),
       FrontSurfaceGui: makeSurfaceGui("Front", label, blockColor),
       BackSurfaceGui: makeSurfaceGui("Back", label, blockColor),
       FrontCircle: makeCircle(
