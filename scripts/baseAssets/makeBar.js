@@ -31,6 +31,7 @@ function makeSurfaceGui(face, label, blockColor) {
         // Size: { X: { Scale: 1, Offset: 0 }, Y: { Scale: 1, Offset: 0 } }, // added later with a plugin
         BackgroundColor3: blockColor,
         TextColor3: [0, 0, 0],
+        BorderSizePixel: 10,
       },
     },
   };
