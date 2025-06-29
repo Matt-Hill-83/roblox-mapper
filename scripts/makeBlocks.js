@@ -79,3 +79,5 @@ fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 const totalObjects =
   config.rectangles + config.squares + config.cylinders + 1 + 3 + 12; // +12 for hex stack (4 levels × 3 bars)
 console.log(`✅ Generated ${totalObjects} objects in default.project.json:`);
+
+//

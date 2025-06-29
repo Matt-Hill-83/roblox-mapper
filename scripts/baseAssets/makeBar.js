@@ -23,44 +23,21 @@ export function makeBar({
     ...props,
   };
 
-  // Calculate the positions for attachments on the SHORT faces
-  // Find which dimension is shortest (excluding height/Y)
-  const xDim = finalProps.Size[0]; // Width
-  const zDim = finalProps.Size[2]; // Length
-  
-  let faceOffset, isXAxis;
-  if (xDim <= zDim) {
-    // X dimension is shorter, so short faces are perpendicular to X-axis
-    faceOffset = xDim / 2;
-    isXAxis = true;
-  } else {
-    // Z dimension is shorter, so short faces are perpendicular to Z-axis  
-    faceOffset = zDim / 2;
-    isXAxis = false;
-  }
-  
-  const frontFaceOffset = faceOffset;
-  const backFaceOffset = -faceOffset;
+  // Calculate the positions for attachments on faces perpendicular to Z axis (short faces)
+  const barLength = finalProps.Size[2]; // Z dimension
+  const frontFaceOffset = barLength / 2; // Front face (positive Z)
+  const backFaceOffset = -barLength / 2; // Back face (negative Z)
 
-  // Calculate rotated positions for the circles based on the correct axis
+  // Calculate rotated positions for the circles
   const radY = (rotation.y * Math.PI) / 180;
   const cosY = Math.cos(radY);
   const sinY = Math.sin(radY);
-  
-  let frontX, frontZ, backX, backZ;
-  if (isXAxis) {
-    // Circles on faces perpendicular to X-axis
-    frontX = position.x + (cosY * frontFaceOffset);
-    frontZ = position.z + (-sinY * frontFaceOffset);
-    backX = position.x + (cosY * backFaceOffset);
-    backZ = position.z + (-sinY * backFaceOffset);
-  } else {
-    // Circles on faces perpendicular to Z-axis
-    frontX = position.x + (sinY * frontFaceOffset);
-    frontZ = position.z + (cosY * frontFaceOffset);
-    backX = position.x + (sinY * backFaceOffset);
-    backZ = position.z + (cosY * backFaceOffset);
-  }
+
+  // Rotate the front and back offsets around Y axis
+  const frontX = position.x + sinY * frontFaceOffset;
+  const frontZ = position.z + cosY * frontFaceOffset;
+  const backX = position.x + sinY * backFaceOffset;
+  const backZ = position.z + cosY * backFaceOffset;
 
   // Create the complete bar structure with attachments and indicator circles
   const bar = {
@@ -74,13 +51,13 @@ export function makeBar({
       FrontAttachment: {
         $className: "Attachment",
         $properties: {
-          Position: isXAxis ? [frontFaceOffset, 0, 0] : [0, 0, frontFaceOffset], // Relative to parent center
+          Position: [0, 0, frontFaceOffset], // Relative to parent center
         },
       },
       BackAttachment: {
         $className: "Attachment",
         $properties: {
-          Position: isXAxis ? [backFaceOffset, 0, 0] : [0, 0, backFaceOffset], // Relative to parent center
+          Position: [0, 0, backFaceOffset], // Relative to parent center
         },
       },
       FrontCircle: {
