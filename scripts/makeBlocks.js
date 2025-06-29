@@ -5,6 +5,7 @@ import { makeBar } from "./baseAssets/makeBar.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
 import { createRectangles } from "./createRectangles.js";
 import { makeHexagon } from "./makeHexagon.js";
+import { makeHexStack } from "./makeHexStack.js";
 import { config } from "./config.js";
 
 // Read current project file
@@ -19,38 +20,52 @@ project.tree.Workspace.MyStuff = {
 let currentX = 0;
 const spacing = config.spacing;
 
-// Generate rectangles
-currentX = createRectangles({
-  project,
-  count: config.rectangles,
-  startX: currentX,
-  spacing,
-});
-
+// // Generate rectangles
+// currentX = createRectangles({
+//   project,
+//   count: config.rectangles,
+//   startX: currentX,
+//   spacing,
+// });
+//
 // Generate a single bar
 console.log(`🟫 Generating 1 bar...`);
 const barProps = {
   Color: [1, 1, 0.8], // Light yellow RGB
-  Rotation: [0, -15, 0], // 45 degrees clockwise around Y-axis
 };
-const bar = makeBar({ id: 1, position: [currentX, 2, 0], props: barProps });
+const bar = makeBar({
+  id: 1,
+  position: [currentX, 2, 0],
+  rotation: [0, -30, 0], // Apply rotation during creation
+  props: barProps,
+});
+
 Object.assign(project.tree.Workspace.MyStuff, bar);
 currentX += spacing;
+//
+// Generate a hexagonsafd
+// makeHexagon({
+//   project,
+//   id: "hex1",
+//   centerPosition: [currentX, 2, 0],
+//   width: 10,
+//   height: 4,
+// });
+// currentX += spacing;
 
-// Generate a hexagon
-makeHexagon({
-  project,
-  id: "hex1",
-  centerPosition: [currentX, 2, 0],
-  width: 10,
-});
+// Generate a hex stack
+// makeHexStack({
+//   project,
+//   id: "hexStack1",
+//   centerPosition: [currentX, 2, 0],
+//   width: 8,
+//   height: 1,
+//   count: 1,
+// });
 currentX += spacing;
-//lkj
 // Write back to file
 fs.writeFileSync(projectPath, JSON.stringify(project, null, 2));
 
 const totalObjects =
-  config.rectangles + config.squares + config.cylinders + 1 + 3; // +3 for hexagon bars
+  config.rectangles + config.squares + config.cylinders + 1 + 3 + 12; // +12 for hex stack (4 levels × 3 bars)
 console.log(`✅ Generated ${totalObjects} objects in default.project.json:`);
-
-// adsfsadasfdsafdasdfasdfasdf

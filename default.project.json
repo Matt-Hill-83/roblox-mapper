@@ -42,135 +42,86 @@
               1,
               0.8
             ],
-            "Material": "Plastic",
+            "Material": "Concrete",
             "Shape": "Block",
             "TopSurface": "Smooth",
             "BottomSurface": "Smooth",
             "Position": [
-              16,
+              0,
               2,
               0
             ],
-            "Rotation": [
+            "Orientation": [
               0,
-              -15,
+              -30,
               0
             ]
-          }
-        },
-        "Rectangle2": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              4,
-              2,
-              8
-            ],
-            "Position": [
-              8,
-              2,
-              0
-            ],
-            "Anchored": true,
-            "Color": [
-              0.2,
-              0.4,
-              0.8
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth"
-          }
-        },
-        "Rectanglehex1_bar1": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              8.660254037844386,
-              0.5,
-              5
-            ],
-            "Anchored": true,
-            "Color": [
-              0.9,
-              0.7,
-              0.3
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Position": [
-              24,
-              2,
-              0
-            ],
-            "Rotation": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "Rectanglehex1_bar2": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              8.660254037844386,
-              0.5,
-              5
-            ],
-            "Anchored": true,
-            "Color": [
-              0.9,
-              0.7,
-              0.3
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Position": [
-              24,
-              2,
-              0
-            ],
-            "Rotation": [
-              0,
-              60,
-              0
-            ]
-          }
-        },
-        "Rectanglehex1_bar3": {
-          "$className": "Part",
-          "$properties": {
-            "Size": [
-              8.660254037844386,
-              0.5,
-              5
-            ],
-            "Anchored": true,
-            "Color": [
-              0.9,
-              0.7,
-              0.3
-            ],
-            "Material": "Plastic",
-            "Shape": "Block",
-            "TopSurface": "Smooth",
-            "BottomSurface": "Smooth",
-            "Position": [
-              24,
-              2,
-              0
-            ],
-            "Rotation": [
-              0,
-              120,
-              0
-            ]
+          },
+          "FrontPoint": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                2,
+                0,
+                0
+              ],
+              "Anchored": true,
+              "Color": [
+                0,
+                1,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            },
+            "FrontPointAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          },
+          "BackPoint": {
+            "$className": "Part",
+            "$properties": {
+              "Size": [
+                0.4,
+                0.4,
+                0.4
+              ],
+              "Position": [
+                -2,
+                0,
+                0
+              ],
+              "Anchored": true,
+              "Color": [
+                1,
+                0,
+                0
+              ],
+              "Material": "Neon",
+              "Shape": "Ball"
+            },
+            "BackPointAttachment": {
+              "$className": "Attachment",
+              "$properties": {
+                "Position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
           }
         }
       }
