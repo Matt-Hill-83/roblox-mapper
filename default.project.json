@@ -103,6 +103,56 @@
             "BottomSurface": "Smooth"
           }
         },
+        "Rectangle4": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              24,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "Rectangle5": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              4,
+              2,
+              8
+            ],
+            "Position": [
+              32,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.2,
+              0.4,
+              0.8
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
         "Square1": {
           "$className": "Part",
           "$properties": {
@@ -112,7 +162,7 @@
               3
             ],
             "Position": [
-              24,
+              40,
               2,
               0
             ],
@@ -137,7 +187,32 @@
               3
             ],
             "Position": [
-              32,
+              48,
+              2,
+              0
+            ],
+            "Anchored": true,
+            "Color": [
+              0.8,
+              0.2,
+              0.2
+            ],
+            "Material": "Plastic",
+            "Shape": "Block",
+            "TopSurface": "Smooth",
+            "BottomSurface": "Smooth"
+          }
+        },
+        "Square3": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [
+              3,
+              3,
+              3
+            ],
+            "Position": [
+              56,
               2,
               0
             ],
@@ -162,7 +237,7 @@
               4
             ],
             "Position": [
-              40,
+              64,
               3,
               0
             ],
@@ -187,7 +262,7 @@
               4
             ],
             "Position": [
-              48,
+              72,
               3,
               0
             ],

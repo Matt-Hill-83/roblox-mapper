@@ -3,13 +3,7 @@ import fs from "fs";
 import { generateRectangle } from "./baseAssets/makeRectangle.js";
 import { generateSquare } from "./baseAssets/makeSquare.js";
 import { generateCylinder } from "./baseAssets/makeCylinder.js";
-
-// Configuration
-const config = {
-  rectangles: 3,
-  squares: 2,
-  cylinders: 2,
-};
+import { config } from "./config.js";
 
 // Read current project file
 const projectPath = "./default.project.json";
@@ -21,7 +15,7 @@ project.tree.Workspace.MyStuff = {
 };
 
 let currentX = 0;
-const spacing = 8; // Space between objects
+const spacing = config.spacing;
 
 // Generate rectangles
 console.log(`🔷 Generating ${config.rectangles} rectangles...`);

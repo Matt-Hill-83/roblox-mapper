@@ -11,6 +11,7 @@ console.log("🔄 Auto-running create3blocks.js when changes detected\n");
 const watcher = chokidar.watch(
   [
     "scripts/makeBlocks.js",
+    "scripts/config.js",
     "scripts/baseAssets/makeRectangle.js",
     "scripts/baseAssets/makeSquare.js",
     "scripts/baseAssets/makeCylinder.js",
