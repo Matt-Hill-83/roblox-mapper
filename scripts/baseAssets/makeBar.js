@@ -6,7 +6,7 @@ const defaultProps = {
   Shape: "Block",
   TopSurface: "Smooth",
   BottomSurface: "Smooth",
-  Transparency: 0.5, // 50% transparency
+  Transparency: 0, // 50% transparency
 };
 
 const pointSize = 1;
